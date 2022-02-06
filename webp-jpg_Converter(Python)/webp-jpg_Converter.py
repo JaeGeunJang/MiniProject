@@ -10,7 +10,7 @@ class Window(Frame) :
         Frame.__init__(self, master)
 
         self.master = master
-        self.master.title("Hitomi Converter")
+        self.master.title("webp-jpg Converter")
         self.pack(fill=BOTH, expand=True)
 
         frame1 = Frame(self)
